@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="Simpan.html" method="post">  
+        <fieldset>
+            <legend>Biodata</legend>
+        Nama:<input type="text"><br>
+        Tempat Lahir:<input type="text"><br>
+        Tanggal Lahir:<input type="date"><br>
+        No HP:<input type="number"><br>
+        Nama Ibu:<input type="text"><br>
+        Nama Ayah:<input type="text"><br>
+        Alamat:<input type="text"><br>
+        NIK:<input type="number"><br>       
+        password:<input type="password"><br>
+        Pasfoto:<input type="file"><br>
+        </fieldset>
+        <fieldset>
+            <legend>Hobi</legend>
+        <input type="radio" name="hobi" id="membaca"><label for="membaca">Membaca</label><br>
+        <input type="radio" name="hobi" id="menulis"><label for="menulis">Menulis</label><br>
+        <input type="radio" name="hobi" id="berenang"><label for="berenang">Berenang</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>Makanan Faforit</legend>
+        <input type="checkbox" name="makanan" id="sate"><label for="sate">Sate</label><br>
+        <input type="checkbox" name="makanan" id="nasi goreng"><label for="nasi goreng">Nasi Goreng</label><br>
+        <input type="checkbox" name="makanan" id="bakso"><label for="bakso">Bakso</label><br>
+        </fieldset>
+        <fieldset>
+            <legend>pekerjaan</legend>
+        <select name="Pekerjaan" id="">
+            <option value="1">Programer</option>
+            <option value="2">guru</option>
+            <option value="3">pertambangan</option>
+            <option value="4">kantoran</option>
+        </select>
+        </fieldset>
+        <fieldset>
+            <legend>Saran</legend>
+        <textarea name="saran" id="" cols="30" rows="10"></textarea><br>
+        </fieldset>
+        <input type="submit" value="Kirim">
+    </form>
+</body>
+</html>
